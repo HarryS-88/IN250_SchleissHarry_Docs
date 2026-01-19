@@ -32,3 +32,15 @@ Zur Kontrolle habe ich folgende Befehle verwendet:
 - `git log --oneline`
 
 Diese Befehle zeigen, dass das Repository korrekt geklont wurde, mit dem richtigen Remote verbunden ist und die Commit-Historie vorhanden ist.
+
+# Git Basics – Aufgabe 3
+
+## Markdown Cheatsheet ins Repository kopieren
+
+In dieser Aufgabe habe ich mein zuvor erstelltes Markdown Cheatsheet in den Ordner meines geklonten Git-Repositories kopiert.
+
+## Commit erstellen
+
+Anschliessend habe ich die Änderungen mit einem Commit gespeichert.  
+Die vorgegebene Commit-Nachricht lautete:
+- `Initial commit`
