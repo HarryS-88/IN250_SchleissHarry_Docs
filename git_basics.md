@@ -119,3 +119,17 @@ Falls der Computer beschädigt wird oder Daten verloren gehen, sind die letzten 
 
 So stellt Git sicher, dass wichtige Arbeit nicht verloren geht, selbst wenn unvorhergesehene Ereignisse eintreten.
 
+# Git Basics – Aufgabe 7
+
+## Dokumentation ins bestehende Repository integrieren
+
+In dieser Aufgabe habe ich meine gesamte Dokumentation `git_basics.md` in mein bestehendes GitHub-Repository integriert.
+
+Anschliessend habe ich die Änderungen mit einem Commit gespeichert und auf GitHub gepusht, sodass die vollständige Dokumentation zentral im Repository verfügbar ist.
+
+Die Commit-Nachricht lautete:
+- `Add git basics documentation`
+
+## Projektdokumentation für Moodle
+
+Zusätzlich habe ich die Projektstruktur sowie die Commit-Historie in einem Word-Dokument mit Screenshots dokumentiert und dieses anschliessend auf Moodle hochgeladen.
