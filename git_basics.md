@@ -85,3 +85,16 @@ GitHub dient dabei als zentrale Quelle, mit der mehrere lokale Repositories sync
 Wenn im ursprünglichen lokalen Repository Änderungen vorgenommen und auf GitHub gepusht wurden, sind diese Änderungen im Remote vorhanden.
 
 Beim anschliessenden `git pull` im neuen lokalen Repository werden diese Änderungen ebenfalls übernommen.
+
+## Zusätzliche Beobachtung: Branch `master` vs. `main` (Repo2)
+
+Beim Erstellen des zweiten lokalen Repositories mit `git init` war der Standard-Branch bei mir `master`.  
+Mein GitHub-Repository verwendet jedoch den Branch `main`.
+
+Nach dem `git pull origin main` wurden die Inhalte vom Remote heruntergeladen und der Branch `main` vom Remote wurde lokal angelegt.  
+Meine Dokumentation zu Aufgabe 5 habe ich danach im Repo2 committed. Da ich mich dabei weiterhin auf dem Branch `master` befand, wurde beim Push ein neuer Remote-Branch `origin/master` erstellt.
+
+Dadurch gibt es auf GitHub nun zwei Branches (`main` und `master`). GitHub zeigt deshalb den Hinweis **„Compare & pull request“** an.  
+Ein Pull Request würde bedeuten, dass Änderungen von `master` in `main` zusammengeführt (gemerged) werden. Für diese Aufgabe war das nicht zwingend erforderlich, es zeigt aber, dass mehrere lokale Repositories auf dasselbe Remote arbeiten können und dabei unterschiedliche Branches entstehen können.
+Ich erkenne dies auch daran, dass `git push` zuerst eine Upstream-Verknüpfung verlangte (Push mit `--set-upstream`), weil `master` noch keinen zugewiesenen Remote-Branch hatte.
+
