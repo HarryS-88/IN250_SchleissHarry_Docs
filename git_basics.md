@@ -59,3 +59,29 @@ Nach dem Erstellen der `.gitignore`-Datei habe ich die Änderungen mit einem Com
 
 Die Commit-Nachricht lautete:
 - `Add gitignore`
+
+# Git Basics – Aufgabe 5
+
+## Zweites lokales Repository mit git init
+
+In dieser Aufgabe habe ich in einem neuen Ordner ein weiteres lokales Git-Repository mit dem Befehl `git init` erstellt.
+
+Anschliessend habe ich den Remote `origin` auf mein bestehendes GitHub-Repository gesetzt.
+
+## Synchronisation mit dem Remote Repository
+
+Nach dem Setzen des Remotes habe ich das lokale Repository mit `git pull origin main` mit dem GitHub-Repository synchronisiert.
+
+Dabei wurden alle Dateien aus dem bestehenden GitHub-Repository in das neue lokale Repository übernommen.
+
+## Beobachtung
+
+Obwohl das neue Repository lokal leer war, wurde beim Pull ein neuer Branch erstellt und der komplette Inhalt vom Remote übernommen.
+
+GitHub dient dabei als zentrale Quelle, mit der mehrere lokale Repositories synchronisiert werden können.
+
+## Was passiert bei vorherigem Push?
+
+Wenn im ursprünglichen lokalen Repository Änderungen vorgenommen und auf GitHub gepusht wurden, sind diese Änderungen im Remote vorhanden.
+
+Beim anschliessenden `git pull` im neuen lokalen Repository werden diese Änderungen ebenfalls übernommen.
