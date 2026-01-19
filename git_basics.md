@@ -98,3 +98,22 @@ Dadurch gibt es auf GitHub nun zwei Branches (`main` und `master`). GitHub zeigt
 Ein Pull Request würde bedeuten, dass Änderungen von `master` in `main` zusammengeführt (gemerged) werden. Für diese Aufgabe war das nicht zwingend erforderlich, es zeigt aber, dass mehrere lokale Repositories auf dasselbe Remote arbeiten können und dabei unterschiedliche Branches entstehen können.
 Ich erkenne dies auch daran, dass `git push` zuerst eine Upstream-Verknüpfung verlangte (Push mit `--set-upstream`), weil `master` noch keinen zugewiesenen Remote-Branch hatte.
 
+# Git Basics – Aufgabe 6
+
+## Warum Git in der Softwareentwicklung genutzt wird
+
+Git wird in der Softwareentwicklung verwendet, um Änderungen am Code nachvollziehbar zu speichern und zu verwalten. Jede Änderung kann mit einem Commit dokumentiert werden, sodass jederzeit ersichtlich ist, wer was und wann geändert hat.
+
+Ein weiterer wichtiger Vorteil von Git ist die Zusammenarbeit im Team. Mehrere Personen können gleichzeitig am gleichen Projekt arbeiten, ohne sich gegenseitig zu behindern. Über Branches lassen sich neue Funktionen oder Experimente getrennt entwickeln und später zusammenführen.
+
+Zusätzlich bietet Git Sicherheit, da frühere Versionen jederzeit wiederhergestellt werden können. Falls ein Fehler gemacht wird, kann man auf einen früheren Stand zurückgehen.
+
+---
+
+## Warum bei einem Feuer zuerst Git Commit und Git Push erfolgen sollte
+
+Der Vergleich mit einem Feuer soll verdeutlichen, wie wichtig es ist, Änderungen rechtzeitig zu sichern. Ein Git Commit speichert die aktuellen Änderungen lokal, ein Git Push sichert diese zusätzlich im Remote Repository (z. B. auf GitHub).
+
+Falls der Computer beschädigt wird oder Daten verloren gehen, sind die letzten Änderungen durch den Push trotzdem noch vorhanden. Deshalb sollte man bei einem Notfall zuerst committen und pushen, bevor man den Arbeitsplatz verlässt.
+
+So stellt Git sicher, dass wichtige Arbeit nicht verloren geht, selbst wenn unvorhergesehene Ereignisse eintreten.
