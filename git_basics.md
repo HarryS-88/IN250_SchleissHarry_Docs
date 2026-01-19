@@ -44,3 +44,18 @@ In dieser Aufgabe habe ich mein zuvor erstelltes Markdown Cheatsheet in den Ordn
 Anschliessend habe ich die Änderungen mit einem Commit gespeichert.  
 Die vorgegebene Commit-Nachricht lautete:
 - `Initial commit`
+
+# Git Basics – Aufgabe 4
+
+## .gitignore erstellen
+
+In dieser Aufgabe habe ich eine `.gitignore`-Datei in meinem Repository erstellt.
+
+In dieser Datei habe ich definiert, dass alle Log-Dateien (`*.log`) sowie die Datei `GeheimeBankInformationen.txt` von Git ignoriert werden.
+
+## Commit erstellen
+
+Nach dem Erstellen der `.gitignore`-Datei habe ich die Änderungen mit einem Commit gespeichert.
+
+Die Commit-Nachricht lautete:
+- `Add gitignore`

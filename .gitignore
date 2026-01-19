@@ -1,0 +1,5 @@
+# Log-Dateien ignorieren
+*.log
+
+# Sensible Datei ignorieren
+GeheimeBankInformationen.txt
