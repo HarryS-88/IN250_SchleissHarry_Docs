@@ -1,5 +1,5 @@
-# Git Merging – MAIN Version
+# Git Merging – aufgelöste Version
 
-Ein Merge führt Änderungen aus verschiedenen Branches zusammen.
-Wenn beide Branches die gleichen Zeilen verändert haben, entsteht ein Merge-Konflikt.
-Konflikte müssen manuell gelöst werden, bevor der Merge abgeschlossen werden kann.
+Beim Mergen werden Änderungen aus Feature-Branches in den main-Branch integriert.
+Wenn mehrere Branches dieselben Stellen verändern, entsteht ein Merge-Konflikt.
+Diese Konflikte müssen manuell geprüft und aufgelöst werden.
