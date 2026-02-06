@@ -1,10 +1,5 @@
-# Git Merging
+# Git Merging – MAIN Version
 
-Git Merging bedeutet, dass Änderungen aus einem Branch in einen anderen Branch zusammengeführt werden.
-
-Typischer Ablauf:
-- Feature-Branch erstellen
-- Änderungen committen
-- Feature-Branch in `main` oder `develop` mergen
-
-Dabei kombiniert Git die Commit-Historie beider Branches. Wenn dieselben Stellen geändert wurden, kann es zu Merge-Konflikten kommen.
+Ein Merge führt Änderungen aus verschiedenen Branches zusammen.
+Wenn beide Branches die gleichen Zeilen verändert haben, entsteht ein Merge-Konflikt.
+Konflikte müssen manuell gelöst werden, bevor der Merge abgeschlossen werden kann.
